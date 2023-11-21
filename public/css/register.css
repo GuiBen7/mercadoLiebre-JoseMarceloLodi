@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+header{
+    background-color: #EAC926;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.header-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-section p{
+    width: 100%;
+    text-align: center;
+}
+
+.imagen-logo{
+    width: 50%;
+}
+
+.imagen-logo img{
+    margin: 20px;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: first baseline;
+}
+
+.logo-submit i{
+    background-color: white;
+}
+
+.input input{
+    width: 120px;
+    height: 30px;
+}
+
+.navbar{
+    display: none;
+}
+
+.box-menu{
+    text-align: center;
+}
+
+.box-menu i{
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+    background-color: #10457e;
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.navbar li a{
+    text-decoration: none;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+form 
+.registro-datos,
+.registro-date,
+.registro-intereses,
+.registro-file,
+.registro-pass{
+    margin-bottom: 10px;
+}
+
+.registro-datos input,
+.pass input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10%;
+    border: 1px solid #EAC926;
+    padding-left: 2px;
+}
+
+.registro span{
+    display: block;
+    background-color: rgba(232, 56, 56, 0.867);
+    color: white;
+    margin: 5px;
+    width: 200px;
+    display: none;
+}
+
+.registro input{
+    display: block;
+}
+
+.registro-date{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #EAC926;
+    background-color: #c4b982;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.registro-datos{
+    margin: 5px;
+}
+
+.registro-date,
+.registro-perfil,
+.registro-intereses,
+.registro-file{
+    margin-left: 10px;
+}
+
+.registro-datos input{
+    margin: 5px;
+}
+
+.profile{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.profile div{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.intereses div{
+    display: flex;
+    margin: 5px;
+}
+
+.pass{
+    margin: 10px;
+}
+
+.pass input{
+    margin-bottom: 5px;
+}
+
+.submit input{
+    width: 100px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: #10457e;
+    color: #ebebeb;
+    margin: 5px;
+    border: none;
+    transition: background-color 0.6ms ease;
+}
+
+.submit{
+    display: flex;
+}
+
+.submit input:hover{
+    background-color: #c4b982;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.ft-beneficio i{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.ft-beneficio{
+    margin: 10px;
+}
+
+.ft-beneficio p{
+    margin-top: 10px;
+}
+
+@media (min-width: 361px){
+    .descripciones{
+        display: block;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+
+    .navbar-left,
+    .navbar-right{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .navbar li{
+        margin: 0px 6px;
+    }
+
+    .box-menu i{
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
+    .pie-de-pagina{
+        display: flex;
+    }
+
+    .copyright{
+        font-size: 10px;
+        background-color: #EAC926;
+        width: 100%;
+        text-align: start;
+        margin-top: 10px;
+    }
+
+    .ft-beneficio i{
+        transition: color 0.7s ease-in-out
+    }
+
+    .ft-beneficio i:hover{
+        color: #EAC926;
+    }
+}

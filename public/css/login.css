@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+header{
+    background-color: #EAC926;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.header-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-section p{
+    width: 100%;
+    text-align: center;
+}
+
+.imagen-logo{
+    width: 50%;
+}
+
+.imagen-logo img{
+    margin: 20px;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: first baseline;
+}
+
+.logo-submit i{
+    background-color: white;
+}
+
+.input input{
+    width: 120px;
+    height: 30px;
+}
+
+.navbar{
+    display: none;
+}
+
+.box-menu{
+    text-align: center;
+}
+
+.box-menu i{
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+    background-color: #10457e;
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.navbar li a{
+    text-decoration: none;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.login span{
+    display: block;
+    background-color: rgba(232, 56, 56, 0.867);
+    color: white;
+    margin: 5px;
+    width: 200px;
+    display: none;
+}
+
+.login-pass{
+    margin: 10px;
+}
+
+.login-pass input{
+    display: block;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10%;
+    border: 1px solid #EAC926;
+    padding-left: 2px;
+}
+
+.login-submit button,
+.enlace-registro-bt button{
+    width: 100px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: #a1bad4;
+    color: #392e2e;
+    margin: 5px;
+    border: none;
+    margin-left: 60px;
+    transition: background-color 0.6ms ease;
+}
+
+.login-submit button:hover{
+    background-color: #0022AA;
+    color: #fff;
+}
+
+.enlace-registro-bt button:hover{
+    background-color: #0022AA;
+    color: #fff;
+}
+
+.enlace-registro-h3 h3{
+    width: 200px;
+    margin: 20px 30px;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.ft-beneficio i{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.ft-beneficio{
+    margin: 10px;
+}
+
+.ft-beneficio p{
+    margin-top: 10px;
+}
+
+@media (min-width: 361px){
+    .descripciones{
+        display: block;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+
+    .navbar-left,
+    .navbar-right{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .navbar li{
+        margin: 0px 6px;
+    }
+
+    .box-menu i{
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
+    .pie-de-pagina{
+        display: flex;
+    }
+
+    .copyright{
+        font-size: 10px;
+        background-color: #EAC926;
+        width: 100%;
+        text-align: start;
+        margin-top: 10px;
+    }
+
+    .ft-beneficio i{
+        transition: color 0.7s ease-in-out
+    }
+
+    .ft-beneficio i:hover{
+        color: #EAC926;
+    }
+}
+
+
+
