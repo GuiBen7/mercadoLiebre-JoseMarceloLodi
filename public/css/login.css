@@ -86,10 +86,6 @@ header{
     display: none;
 }
 
-.login-pass{
-    margin: 10px;
-}
-
 .login-pass input{
     display: block;
     margin-bottom: 5px;
@@ -98,6 +94,14 @@ header{
     border-radius: 10%;
     border: 1px solid #EAC926;
     padding-left: 2px;
+    margin: auto;
+    text-align: center;
+}
+
+.login-submit,
+.enlace-registro-bt{
+    display: flex;
+    justify-content: center;
 }
 
 .login-submit button,
@@ -107,9 +111,8 @@ header{
     border-radius: 30%;
     background-color: #a1bad4;
     color: #392e2e;
-    margin: 5px;
+    margin: 10px 0;
     border: none;
-    margin-left: 60px;
     transition: background-color 0.6ms ease;
 }
 
@@ -125,7 +128,8 @@ header{
 
 .enlace-registro-h3 h3{
     width: 200px;
-    margin: 20px 30px;
+    margin: 20px auto;
+    text-align: center;
 }
 
 footer{
